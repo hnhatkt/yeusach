@@ -1,0 +1,118 @@
+.dt-td {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #33d9b2;
+	padding-bottom: 5px;
+	position: relative;
+	user-select: none;
+}
+.dt-cl {
+	font-size: 20px;
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+	user-select: none;
+}
+.dt-k-tt {
+	padding: 0 15px;
+}
+.dt-m-tt {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+}
+.dt-m-tt > span{
+	margin-bottom: 5px;
+	color: #636e72;
+}
+.dt-m-tt > input:focus, .dt-m-tt > select:focus {
+	outline: none;
+}
+.dt-m-tt > input, .dt-m-tt > select {
+	height: 35px;
+	padding-left: 10px;
+}
+.dt-k-anh > input {
+	display: none;
+}
+.dt-k-anh > div {
+	float: left;
+	cursor: pointer;
+	width: 150px;
+	height: 120px;
+	border: 1px solid #33d9b2;
+	border-radius: 5px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+.dt-anh{
+	width: 150px;
+	height: 120px;
+	border-radius: 5px;
+	object-fit: cover;
+	object-position: center;
+}
+.dt-i-cmr i {
+	cursor: pointer;
+	font-size: 60px;
+	position: absolute;
+	color: #33d9b2;
+}
+.dt-i-cmr {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+.dt-ktt {
+	display: flex;
+	flex-direction: row;
+}
+.dt-ktt input {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.dt-ktt span {
+	margin-right: 40px;
+}
+.dt-mt {
+	padding-left: 5px;
+}
+.dt-mt:focus {
+	outline: none;
+}
+.dt-k-btn-dangtin {
+	text-align: center;
+	margin: 50px 15px;
+}
+.dt-btn-dangtin {
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 3px;
+	border: 1px solid #3498db;
+	text-transform: uppercase;
+	background-color: #3498db;
+	color: white;
+}
+.dt-btn-dangtin:focus {
+	outline: none;
+}
+.dt-div-dangtin {
+	width: 100%;
+	height: 40px;
+	line-height: 38px;
+	font-size: 20px;
+	border-radius: 3px;
+	border: 1px solid #3498db;
+	text-transform: uppercase;
+	background-color: #3498db;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+}

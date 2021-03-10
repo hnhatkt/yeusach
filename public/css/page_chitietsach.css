@@ -1,0 +1,135 @@
+.khung-cts {
+	display: grid;
+	grid-template-columns: 6fr 3fr;
+	grid-column-gap: 15px;
+}
+.cts-trai {
+	position: relative;
+}
+.cts-trai > div {
+	padding: 7px 0;
+}
+.cts-anh {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	margin-bottom: 15px;
+}
+.bangtt {
+	width: 100%;
+	border: 1px solid #57606f;
+	margin-top: 10px;
+}
+.bangtt tr, .bangtt td {
+	padding: 5px 10px;
+}
+.cts-tensach {
+	font-size: 20px;
+	font-weight: bold;
+}
+.cts-tacgia {
+	font-style: italic;
+}
+.cts-gia {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ef4036;
+	margin: 20px 0;
+}
+.cts-sdt {
+	font-weight: bold;
+}
+
+.cts-ttcn{
+	border-top: 1px solid #57606f;
+	border-bottom: 1px solid #57606f;
+	padding: 10px 0;
+}
+.ttcn1 {
+	display: flex;
+	flex-direction: row;
+}
+.ttcn-avt {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin-right: 10px;
+	object-fit: cover;
+}
+.ttcn-ten {
+	font-size: 16px;
+	font-weight: bold;
+}
+.ttcn-tg {
+	font-size: 12px;
+	color: #a4b0be;
+}
+.ttcn-xt {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.ttcn-xt a{
+	border: 1px solid;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 10px;
+	padding:6px 5px;
+	color: #e1b12c;
+}
+.ttcn-xt a:hover {
+	text-decoration: none;
+	color: #e1b12c;
+}
+.ttcn2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.ttcn2 > div, .ttcn2 > i {
+	text-align: center;
+}
+.cts-ll div {
+	border: 1px solid;
+	margin: 10px;
+	padding: 8px;
+	border-radius: 5px;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	user-select: none;
+}
+.cts-ll i {
+	position: absolute;
+	left: 10px;
+}
+.cts-mua {
+	position: absolute;
+	top: 460px;
+	right: 50px;
+	user-select: none;
+	/*width: 70px;*/
+	outline: none;
+	/*border-radius: 5px;*/
+	color: #007bff;
+	/*background-color: rgba(68, 189, 50,0.8);*/
+    /*border: 1px solid rgba(68, 189, 50,0.8);*/
+    /*transition: all .2s;*/
+}
+.cts-mua a{
+	/*text-decoration: none;*/
+	color: #007bff;
+}
+.cts-mua:focus {
+	outline: none;
+}
+.cts-mua:hover {
+	/*transform: scale(1.1);*/
+}

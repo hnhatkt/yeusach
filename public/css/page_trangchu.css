@@ -1,0 +1,47 @@
+.trangchu-ds {
+	background-color: #E4ECF3;
+	padding: 10px 0;
+}
+
+.noidung-trangchu {
+	display: grid;
+	grid-template-columns: 5fr 3fr;
+	grid-column-gap: 10px;
+	margin-top: 15px;
+}
+
+.canle {
+	padding: 15px;
+	background-color: #f5f6fa;
+}
+
+.canle h5 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+	margin-bottom: 20px;
+}
+
+.mt10 {
+	margin-top: 40px;
+}
+.trangchu-xemthem {
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	user-select: none;
+}
+.trangchu-xemthem span:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.tc-btn-dh {
+	color: #007bff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+.tc-btn-dh:hover {
+	text-decoration: underline;
+}

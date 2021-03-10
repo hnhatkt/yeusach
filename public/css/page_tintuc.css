@@ -1,0 +1,448 @@
+.khung-tintuc {
+
+}
+
+.khung-tintuc-nav {
+	height: 2rem;
+	background-color: #e4ecf3;
+}
+
+.tintuc-nav {
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.tintuc-nav a {
+	text-decoration: none;
+	line-height: 1rem;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	padding-left: 1rem;
+}
+
+@media (max-width: 992px){
+	.khung-tintuc-nav {
+		display: none;
+	}
+}
+
+.tintuc-chung {
+	display: grid;
+	grid-template-columns: 3fr 7fr;
+	min-height: 600px;
+}
+
+.tintuc-chung-moinhat {
+	height: 19rem;
+	display: grid;
+	grid-template-rows: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+.tintuc-chung-xemnhieu {
+	margin-bottom: 1rem;
+}
+.tt-thea {
+	text-decoration: none;
+	color: black;
+}
+.tt-thea:hover {
+	text-decoration: none;
+	color: black;
+}
+.tintuc-chung-xemnhieu img {
+	width: 18rem;
+	height: 10rem;
+	object-fit: cover;
+}
+
+.tintuc-chung-xemnhieu-mota {
+	display: flex;
+	flex-direction: row;
+}
+
+.tt-tdc-stt {
+	padding: .5rem .9rem;
+	font-size: 2.5rem;
+	color: #bdc3c7;
+}
+
+.tintuc-chung-xemnhieu-mota > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.tintuc-chung-xemnhieu-mota > div > a {
+	text-decoration: none;
+	font-size: .7rem;
+	padding: .1rem;
+	color: white;
+	background-color: #3498db;
+	padding-left: .5rem;
+}
+
+.tintuc-chung-xemnhieu-mota > div > span {
+	padding-top: .2rem;
+	font-size: 1rem;
+}
+.tt-ttc-bg {
+	height: 19rem;
+	width: 100%;
+	background: linear-gradient(0deg, rgba(6,5,38,1) 0%, rgba(45,52,54,0) 60%);
+}
+
+.tintuc-chung-moinhat-mota {
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+	color: white;
+}
+
+.tintuc-chung-moinhat-mota .loaitin {
+	text-transform: uppercase;
+	color: #ef4036;
+}
+
+.tintuc-chung-moinhat-mota .mota-tieude {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.tintuc-baiviet {
+	padding-top: 2rem;
+}
+
+.tintuc-demuc {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.tintuc-demuc > p {
+	z-index: 999;
+	width: 10rem;
+	font-size: 1.2rem;
+	text-align: center;
+	background-color: #ff4d00;
+	text-transform: uppercase;
+	color: white;
+}
+
+.tintuc-demuc > div {
+	width: 100%;
+	border-top: .1px solid #7f8c8d;
+	position: absolute;
+	top: .9rem;
+}
+
+.tintuc-line {
+	width: 100px;
+	border-top: 1px solid;
+}
+
+.tintuc-list {
+	display: grid;
+}
+
+.tintuc-list-left {
+	margin-right: 1rem;
+}
+
+.tintuc-one {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
+
+.tintuc-one > img {
+	width: 15rem;
+	height: 10rem;
+	object-fit: cover;
+	margin-right: 1rem;
+}
+
+.tintuc-one-mota {
+	display: flex;
+	flex-direction: column;
+}
+
+.tintuc-one-tag {
+	padding: .2rem 1rem;
+	background-color: #3498db;
+	text-transform: uppercase;
+	font-size: .8rem;
+	color: white;
+}
+
+.tintuc-one-mota-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.tintuc-one-mota-content .content-tieude {
+	font-weight: bold;
+	font-size: 1rem;
+	padding-top: .5rem;
+}
+
+.tintuc-one-mota-content .content-time {
+	font-size: .7rem;
+	color: #a4b0be;
+}
+
+.tintuc-one-mota-content .content-tomtat {
+	font-size: 1rem;
+}
+
+.tintuc-list-right {
+	/*background-color: #ff6b81;*/
+}
+.tintuc-sukien	 {
+	margin-top: 1rem;
+	border: 1px solid;
+}
+.xtt-k {
+	width: 740px;
+	min-height: 500px;
+	padding: 20px 35px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: justify;
+	box-shadow: 2px 5px 10px 0px rgba(0,0,0,.3);
+}
+.xtt-tg {
+	font-style: 15px;
+	font-style: italic;
+	margin-right: 10px;
+}
+.xtt-lx {
+	font-size: 15px;
+}
+.xtt-k-tags {
+	margin-bottom: 15px;
+}
+.xtt-k-tags a {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: white;
+	padding: 1px 8px;
+	text-decoration: none;
+}
+.xtt-k-tags a:hover {
+	text-decoration: none;
+}
+.xtt-k-tt {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.xtt-k-nv {
+	font-weight: bold;
+	text-align: right;
+}
+.xtt-k-tlq {
+	position: relative;
+}
+.xtt-k-maclq:before {
+	content: '';
+    width: 10px;
+    height: 0;
+    border-bottom: 20px solid #b61515;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+.xtt-k-maclq {
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.xtt-ds-tlq {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.xtt-tlq {
+	height: 170px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	-webkit-line-clamp: 3;
+}
+.xtt-tlq a{
+	text-decoration: none;
+	color: black;
+}
+.xtt-tlq a:hover {
+	text-decoration: none;
+	color: #535c68;
+	filter: brightness(70%);
+}
+.xtt-tlq img{
+	height: 120px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom: 5px;
+}
+.xtt-tlq-td {
+	font-size: 14px;
+	font-weight: bold;
+}
+.xtt-o-bl {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+.xtt-o-bl img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	object-fit: cover;
+	object-position: center;
+}
+.xtt-o-bl input {
+	height: 60px;
+	width: 100%;
+	padding-left: 10px;
+}
+.xtt-o-bl input:focus {
+	outline: none;
+}
+.xtt-btn-gbl {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.xtt-btn-gbl span {
+	background-color: #007bff;
+	padding: 4px 7px;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	border: 1px solid #159f7f;
+}
+.xtt-btn-gbl span:hover {
+	background-color: #1872d3;
+}
+.xtt-tt-bl {
+	display: flex;
+	flex-direction: column;
+}
+.bl-tk {
+	color: #007bff;
+}
+.bl-tg {
+	font-size: 11px;
+	font-style: italic;
+	color: #7f8c8d;
+}
+.xtt-xt {
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+.xtt-xt:hover {
+	text-decoration: underline;
+}
+.tt-tdc-tt {
+	height: 70px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	-webkit-line-clamp: 3;
+}
+
+/*Tin tuc o trang chu*/
+.khung-baiviet {
+	border: 1px solid  rgba(127, 140, 141,0.5);
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 0.5rem;
+	position: relative;
+}
+.khung-baiviet-a {
+	text-decoration: none;
+	color: black;
+}
+.khung-baiviet-a:hover {
+	text-decoration: none;
+	color: black
+}
+
+.ten-baiviet {
+	width: 300px;
+	font-weight: bold;
+	font-size: 1rem;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 0.2rem;
+}
+
+.tomtat-baiviet {
+	width: 17rem;
+	font-size: 0.7rem;
+	display: flex;
+	flex-direction: row;
+}
+.catchuoi{
+	height: 50px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	-webkit-line-clamp: 3;
+}
+
+.catchuoi {
+	color: black;
+}
+
+.doctiep {
+	text-decoration: none;
+	color: #c23616;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.3rem;
+}
+
+.khung-baiviet:hover {
+	background-color: rgba(127, 140, 141,0.1);
+	box-shadow: 0 1px 8px 0 rgba(0,0,0,.3);
+}
+
+.khung-baiviet:hover .doctiep {
+	color: rgba(68, 189, 50,0.8);
+}
+.khung-baiviet:hover .tenbaiviet {
+	color: black;
+}
+
+.tt-bv-anh {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+	margin-right: 8px;
+}
+.dstt-tag-line {
+	top: 27px!important;
+	border-top: 2px solid #ff4d00!important;
+}

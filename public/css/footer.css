@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+}
+
+.footer-ds {
+	background-color: #33d9b2;
+	padding: 2rem 0;
+}
+
+.khung-footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.khung-footer > div {
+	/*border: 1px solid;*/
+}
+
+.footer-top {
+	display: flex;
+	flex-direction: row;
+	font-size: 1rem;
+}
+
+.footer-top > div {
+	flex-grow: 1;
+	/*border: 1px solid;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-top > div p {
+	font-weight: bold;
+}
+
+.footer-top > div i {
+	width: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.nentang-ds img {
+	width: 7rem;
+	height: 2.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.chungnhan img {
+	width: 8rem;
+	height: 3rem;
+}
+
+.footer-bottom {
+	text-align: center;
+	font-size: 0.8rem;
+	padding-top: 1rem;
+}

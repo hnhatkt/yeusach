@@ -1,0 +1,56 @@
+.khung-danhmuc {
+	padding: 1rem;
+	margin-top: 10px;
+	background-color: #f5f6fa;
+	padding-bottom: 2rem;
+	min-height: 35rem;
+}
+
+.danhmuc-top > p {
+	margin-bottom: -0.7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.danhmuc-top .locdm {
+	display: flex;
+	flex-direction: row;
+	margin: 1rem 0;
+}
+
+.locdm span {
+	margin-right: .5rem;
+	line-height: 1.7rem;
+}
+
+.locdm input:focus {
+	outline: none;
+}
+
+.list-danhmuc {
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+@media (max-width: 992px) {
+	.list-danhmuc {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+@media (max-width: 768px) {
+	.list-danhmuc {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (max-width: 600px) {
+	.list-danhmuc {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
